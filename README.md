@@ -6,4 +6,4 @@ Guide
 Customer Tabloları mevcut.
 Veritabanını form uygulamamıza baglayarak Linq sorgularıyla çeşitli analizler yaptık. Yaptıgımız analiz örnekleri projenin içerisindeki resimde yer almaktadır.
 
-](https://github.com/ozlemcubuklu/CSharpEgitimKampi301/issues/1#issue-2701625058)
+[](case3.jpg)
