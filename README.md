@@ -5,4 +5,5 @@ Location
 Guide
 Customer Tabloları mevcut.
 Veritabanını form uygulamamıza baglayarak Linq sorgularıyla çeşitli analizler yaptık. Yaptıgımız analiz örnekleri projenin içerisindeki resimde yer almaktadır.
-![case3](https://github.com/-attachments/assets/c17b24fuser9-1965-4fb0-9cbb-fb61107bf255)
+
+](https://github.com/ozlemcubuklu/CSharpEgitimKampi301/issues/1#issue-2701625058)
