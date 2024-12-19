@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpEgitimKampi301.DataAccess.Abstract
+namespace CSharpEgitimKampi301.Bussiness.Abstract
 {
-    public interface IProductDal:IGenericDal<Product>
+    public interface IOrderService:IGenericService<Order>
     {
-        List<Object> GetProductsWithCategory();
     }
 }

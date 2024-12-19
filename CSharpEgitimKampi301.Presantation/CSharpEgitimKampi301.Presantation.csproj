@@ -56,14 +56,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduct1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct1.Designer.cs">
+      <DependentUpon>FrmProduct1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct1.resx">
+      <DependentUpon>FrmProduct1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +112,14 @@
     <ProjectReference Include="..\CSharpEgitimKampi301.Bussiness\CSharpEgitimKampi301.Bussiness.csproj">
       <Project>{2ce37eda-8929-4363-b3ed-cd4f5b53b477}</Project>
       <Name>CSharpEgitimKampi301.Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi301.DataAccess\CSharpEgitimKampi301.DataAccess.csproj">
+      <Project>{F16F945B-4C60-4802-978C-1733C6D0CEE6}</Project>
+      <Name>CSharpEgitimKampi301.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi301.Entity\CSharpEgitimKampi301.EntityLayer.csproj">
+      <Project>{53D68EFF-75CA-4A39-B1BF-965ABFDC6EA4}</Project>
+      <Name>CSharpEgitimKampi301.EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

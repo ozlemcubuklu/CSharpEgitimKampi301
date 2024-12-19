@@ -16,7 +16,7 @@ namespace CSharpEgitimKampi301.Presantation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmProduct1());
         }
     }
 }
